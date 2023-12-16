@@ -4,5 +4,4 @@ for i in range(10):
         if i * 10 + j == 89:
             print("{:d}{:d}".format(i, j))
         else:
-            print("{:d}{:d}, ".format(i, j), end="")
-            
+            print("{:d}{:d}, ".format(i, j), end="") 
