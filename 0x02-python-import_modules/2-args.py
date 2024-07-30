@@ -8,5 +8,5 @@ if __name__ == "__main__":
         print("{} argument:".format(val))
     else:
         print("{} arguments:".format(val))
-    for i in range(value):
+    for i in range(val):
         print("{}: {:s}".format(i + 1, argv[i + 1]))
